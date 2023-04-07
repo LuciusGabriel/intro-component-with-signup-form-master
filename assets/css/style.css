@@ -55,17 +55,65 @@ strong{
 
 .first-btn{
     padding: 20px;
-    width: 100%;
+    width: 94%;
     background-color: var(--Blue);
     border-radius: .5rem;
     text-align: center;
     margin-bottom: 2rem;
+    box-shadow: 0px 8px hsla(0, 100%, 81%, 0.8);
 }
 
 .form{
     background-color: var(--White);
     border-radius: .5rem;
-    width: 100%;
+    width: 40vw;
     height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 8px hsla(0, 100%, 81%, 0.8);
 }
 
+.text{
+    width: 90%;
+    height: 12%;
+    border-radius: .5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 20px;
+    color: var(--Dark-Blue);
+    border: 2px solid var(--Grayish-Blue)
+}
+
+.text:focus{
+    border: 2px solid var(--Blue);
+    outline: none;
+}
+
+.claim{
+    width: 95%;
+    height: 12%;
+    cursor: pointer;
+    background-color: var(--Green);
+    border: none;
+    border-radius: .5rem;
+    color: var(--White);
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.form p{
+    color: var(--Grayish-Blue);
+    font-size: .7rem;
+    font-weight: 500;
+    margin-top: 1.3rem;
+}
+.form strong{
+    color: var(--Red);
+    cursor: pointer;
+}
