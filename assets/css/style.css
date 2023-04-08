@@ -61,6 +61,7 @@ strong{
     text-align: center;
     margin-bottom: 2rem;
     box-shadow: 0px 8px hsla(0, 100%, 81%, 0.8);
+    cursor: pointer;
 }
 
 .form{
