@@ -66,9 +66,11 @@ strong{
 
 .form{
     background-color: var(--White);
+    color: var(--Red);
     border-radius: .5rem;
-    width: 40vw;
-    height: 60vh;
+    min-width: 40vw;
+    /* height: 60vh; */
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -76,7 +78,18 @@ strong{
     box-shadow: 0px 8px hsla(0, 100%, 81%, 0.8);
 }
 
-.text{
+.form small{
+    font-size: .6rem;
+}
+
+.invisible{
+    display: none;
+}
+.required{
+    border: 2px solid var(--Red);
+}
+
+input{
     width: 90%;
     height: 12%;
     border-radius: .5rem;
@@ -85,7 +98,7 @@ strong{
     font-family: 'Poppins', sans-serif;
     padding-left: 20px;
     color: var(--Dark-Blue);
-    border: 2px solid var(--Grayish-Blue)
+    border: 2px solid var(--Grayish-Blue)   
 }
 
 .text:focus{
