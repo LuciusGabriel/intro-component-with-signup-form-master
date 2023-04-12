@@ -131,3 +131,9 @@ input{
     color: var(--Red);
     cursor: pointer;
 }
+
+@media(max-width: 992px){
+    main{
+        display: block;
+    }
+}
