@@ -141,5 +141,10 @@ input{
     .left{
         margin-bottom: 20px;
     }
+    .right{
+        
+    }
+    .first-btn{
+        width: 60vw;
+    }
 }
-/* Let's go Bath! */
