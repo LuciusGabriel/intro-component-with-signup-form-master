@@ -43,6 +43,7 @@ h1{
     font-size: 4em;
     font-weight: 700;
     padding-bottom: 1em;
+    line-height: 1.2em;
 }
 
 .left p{
@@ -140,10 +141,19 @@ input{
         width: 90vw;
         margin: 0 auto;
     }
+    h1{
+        font-size: 3em;
+        text-align: center;
+    }
     .left{
         margin-bottom: 20px;
     }
+    .left p{
+        text-align: center;
+    }
     .first-btn{
-        width: 60vw;
+        width: 80vw;
+        text-align: center;
+        margin: 0 auto;
     }
 }
